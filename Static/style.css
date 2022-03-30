@@ -24,7 +24,7 @@ html , body{
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 8px solid #ffffff27  ;
+    border: 8px solid #ffffff11  ;
     border-radius: 100%;
     
 }
@@ -50,7 +50,7 @@ p {
 
 #header .profile .social-links a {
     font-size: 1rem;
-    background-color: #ffffff27;
+    background-color: #ffffff11;
     color: #fff;
     padding: 0.6rem;
     margin-right: 1rem;
@@ -123,6 +123,7 @@ section#inicio div#arraste a {
 i.menu-mobile {
     position: fixed;
     color: #fff;
+    background-color: #ff0000;
     right: 1rem;
     top: 1rem;
     font-size: 1.5rem;
@@ -178,3 +179,72 @@ i.menu-mobile {
 background-color: rgb(255, 0, 0);
 border-radius: 10%;
 }
+
+.section-bg{
+   
+    background-color: rgb(246, 246, 246);
+   
+    
+   
+}
+
+
+
+.progress-bar{
+    background-image: linear-gradient(to right bottom, #292929, #202020, #181818, #0f0f0f, #000000);
+    font-family: Ubuntu, Arial;   
+}
+
+.cv .cv-title{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+}
+
+.cv .cv-item {
+    padding: 0 0 20px 20px;
+    margin-top:  -2px;
+    border-left: 2px solid #2c2c2c;
+    position: relative;
+}
+
+.cv .cv-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ff0000;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.carousel-control-prev{
+    margin-left: -8rem;
+}
+
+.carousel-control-next{
+    margin-right:-8rem;
+}
+
+.carousel-indicators{
+    margin-bottom: -50px;
+}
+
+@media (max-width : 1860px)
+{
+    .carousel-control-prev{
+        margin-left: 0;
+    }
+    .carousel-control-next{
+        margin-right: 0;
+    }
+}
+
+.habilidades-progress{
+    margin-bottom: 100px ;
+    margin-left: 155px;
+}
+
